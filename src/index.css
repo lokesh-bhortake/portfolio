@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: #020627; */
+}
+
+/* Firefox */
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #020523 rgba(85, 88, 110, 0.75);
+    scroll-behavior: smooth;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #020523;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgba(85, 88, 110, 0.75);
+    border-radius: 14px;
+}
+
+
+.project-card {
+    width: 22rem;
+    background-color: rgba(85, 88, 110, 0.25);
+}
+
+
+.layer-blur-nav {
+    top: -1000%;
+    left: -1000%;
+    filter: blur(550px);
+}
+
+.layer-blur {
+    opacity: 75%;
+    filter: blur(500px);
+}
+
+#submit:hover,
+button:hover {
+    transform: scale(1.02);
+    transition: transform 0.2s ease-in-out;
+}
