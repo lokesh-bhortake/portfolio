@@ -44,8 +44,8 @@ const Contact = () => {
         <div className={`${styles.blurDiv} left-[15%] md:left-[25%] lg:left-[30%] layer-blur`}></div>
       </div>
 
-      <div className='flex gap-20 md:gap-40 w-full'>
-        <ul className={`flex flex-col sm:flex-row ${styles.sizeFull} gap-12 p-4 justify-center items-center md:items-start`}>
+      <div className='flex gap-6 md:gap-40 w-full'>
+        <ul className={`flex flex-col sm:flex-row ${styles.sizeFull} gap-12 p-2 sm:p-4 justify-center items-center md:items-start`}>
           {
             socials.map((social, index) => (
               <li key={index}>

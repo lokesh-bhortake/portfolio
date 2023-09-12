@@ -3,14 +3,10 @@ import { navlinks } from '../constants/constants';
 import { AiOutlineMenu, AiOutlineClose } from 'react-icons/ai'
 import logo from '../assets/icons/logo.svg'
 import styles from '../style';
+import { handleDownload } from '../constants/constants';
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(true);
-
-  const handleDownload = () => {
-    const pdfUrl = 'src/assets/files/Lokesh_Bhortake_Resume.pdf';
-    window.open(pdfUrl, '_blank');
-  };
 
   const handleNav = () => {
     setToggle(!toggle)
@@ -42,7 +38,7 @@ const Navbar = () => {
 
       <div onClick={handleNav} className='md:hidden flex'>
           { toggle ? <AiOutlineMenu size={24} /> : <AiOutlineClose size={24} /> }
-          <div className={!toggle ? `absolute right-0 top-[56px] w-[40%] ease-in-out duration-500 bg-complimentary border h-fit` : 'fixed right-[-100%]'}>
+          <div className={!toggle ? `absolute right-0 top-[56px] w-[40%] ease-in duration-500 bg-complimentary h-fit` : 'fixed right-[-100%]'}>
             <ul className='justify-center items-center px-2 py-2'>
               { navlinks.map((nav, index) => (
                 <li key={index} 

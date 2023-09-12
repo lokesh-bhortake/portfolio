@@ -18,12 +18,13 @@ import portfolio_img from '../assets/images/portfolio.svg'
 import github from '../assets/icons/Github.svg'
 import mail from '../assets/icons/Mail.svg'
 import linkedin from '../assets/icons/Linkedin.svg'
+import resume from '../assets/files/Lokesh_Bhortake_Resume.pdf'
 
 export const navlinks = [
     {
         text: 'Home',
-        link: 'hero',        
-    }, 
+        link: 'hero',
+    },
     {
         text: 'About',
         link: 'about',
@@ -38,7 +39,7 @@ export const navlinks = [
     }
 ]
 
-export const about_text = <>I am a passionate and creative frontend developer ready to turn ideas into high quality websites with use of modern technologies.<br /><br />I have Bachelor’s degree in Computer Science and Engineering. I am on a journey to create compelling web solutions that not only look amazing but also provide seamless interactions. I enjoy developing websites and also create designs to give them a good UI.<br /></>
+export const about_text = <><p style={{ textIndent: '2em' }}>I am a passionate and creative frontend developer ready to turn ideas into high quality websites with use of modern technologies.</p><br /><p style={{ textIndent: '2em' }}>I have Bachelor’s degree in Computer Science and Engineering. I am on a journey to create compelling web solutions that not only look amazing but also provide seamless interactions. I enjoy developing websites and also create designs to give them a good UI.</p><br /></>
 
 export const skills = [
     {
@@ -140,11 +141,11 @@ export const projects = [
         btn: [
             {
                 btn_text: 'Design',
-                btn_link: 'https://www.figma.com/file/PFMzQgEjgGCPV4wMUPuSHY/Portfolio-Site?type=design&node-id=0%3A1&mode=design&t=kvuoaBKkNV0ApaJ3-1',
+                btn_link: 'https://www.figma.com/file/PFMzQgEjgGCPV4wMUPuSHY/Portfolio-Site?type=design&node-id=0%3A1&mode=design&t=HHqpyOHVSHqy3eib-1',
             },
             {
                 btn_text: 'Code',
-                btn_link: '',
+                btn_link: 'https://github.com/lokesh-bhortake/portfolio',
             },
         ]
     }
@@ -170,4 +171,8 @@ export const socials = [
 
 export const openLink = (url) => {
     window.open(url, '_blank');
-  }
+}
+
+export const handleDownload = () => {
+    window.open(resume, '_blank');
+};

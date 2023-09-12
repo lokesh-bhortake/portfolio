@@ -7,7 +7,6 @@
 * {
     margin: 0;
     padding: 0;
-    /* background-color: #020627; */
 }
 
 /* Firefox */
@@ -45,8 +44,8 @@
 }
 
 .layer-blur {
-    opacity: 75%;
-    filter: blur(500px);
+    opacity: 25%;
+    filter: blur(550px);
 }
 
 #submit:hover,

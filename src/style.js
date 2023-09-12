@@ -13,7 +13,7 @@ const styles = {
   heroBanner: "sm:h-[75%] md:h-full sm:w-[75%] md:w-full",
 
   contactFormInputLabelContainer: "flex flex-col gap-2",
-  contactFormInput: "rounded-lg bg-secondary text-primary p-2",
+  contactFormInput: "rounded-lg bg-secondary text-primary p-2 w-full",
 
 };
   

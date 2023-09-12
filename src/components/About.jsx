@@ -6,18 +6,19 @@ import styles from '../style';
 const About = () => {
   return (
     <section id='about' className='text-accent gap-8 py-2'>
-      <div className='flex gap-8'>
-        <div className={`flex flex-col ${styles.sizeFull} gap-14 p-4`}>
+      <div className='flex gap-8 items-center'>
+        <div className={`flex flex-col ${styles.sizeFull} gap-8 p-4`}>
           <h3 className='text-h3 font-bold text-center'>About</h3>
           <p className='text-base text-justify'>{about_text}</p>
+          <a href="#contact" className={`${styles.filledButton} md:w-[50%] justify-center text-center`}>Hire Me</a>
         </div>
-        <div className={`hidden md:flex ${styles.sizeFull} items-end`}>
+        <div className={`hidden sm:flex ${styles.sizeFull}`}>
           <img src={about_img} alt="about_img" className={`${styles.sizeFull}`}/>
         </div>
       </div>
 
       <div className='relative items-center'>
-        <div className={`left-[15%] md:left-[25%] lg:left-[30%] layer-blur ${styles.blurDiv}`}></div>
+        <div className={`sm:hidden md:left-[25%] lg:left-[30%] layer-blur ${styles.blurDiv}`}></div>
       </div>
 
       <div className={`${styles.flexCenter} flex-col gap-8 py-4`}>
