@@ -90,10 +90,10 @@ export const skills = [
         icon: stripe,
         text: 'Stripe',
     },
-    {
-        icon: mysql,
-        text: 'MySQL',
-    },
+    // {
+    //     icon: mysql,
+    //     text: 'MySQL',
+    // },
     {
         icon: vscode,
         text: 'VS Code',
