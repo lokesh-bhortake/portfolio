@@ -10,7 +10,7 @@ const About = () => {
         <div className={`flex flex-col ${styles.sizeFull} gap-8 p-4`}>
           <h3 className='text-h3 font-bold text-center'>About</h3>
           <p className='text-base text-justify'>{about_text}</p>
-          <a href="#contact" className={`${styles.filledButton} md:w-[50%] justify-center text-center`}>Hire Me</a>
+          <a href="#contact" className={`${styles.filledButton} md:w-[50%] text-center`}>Hire Me</a>
         </div>
         <div className={`hidden sm:flex ${styles.sizeFull}`}>
           <img src={about_img} alt="about_img" className={`${styles.sizeFull}`}/>

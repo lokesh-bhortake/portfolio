@@ -66,18 +66,18 @@ export const skills = [
         icon: tailwind,
         text: 'Tailwind',
     },
-    {
-        icon: mui,
-        text: 'Material UI',
-    },
+    // {
+    //     icon: mui,
+    //     text: 'Material UI',
+    // },
     {
         icon: figma,
         text: 'Figma',
     },
-    {
-        icon: rapidapi,
-        text: 'RapidAPI',
-    },
+    // {
+    //     icon: rapidapi,
+    //     text: 'RapidAPI',
+    // },
     {
         icon: git,
         text: 'Git',
@@ -86,10 +86,10 @@ export const skills = [
         icon: linux,
         text: 'Linux',
     },
-    {
-        icon: stripe,
-        text: 'Stripe',
-    },
+    // {
+    //     icon: stripe,
+    //     text: 'Stripe',
+    // },
     // {
     //     icon: mysql,
     //     text: 'MySQL',
@@ -118,22 +118,6 @@ export const projects = [
         ]
     },
     {
-        image: lbank_img,
-        title: 'Bank Landing Page',
-        description: 'A fully responsive bank landing page aimed to showcase the bank services and offerings with modern UI.',
-        tech: 'React, Tailwind CSS',
-        btn: [
-            {
-                btn_text: 'Live',
-                btn_link: 'https://lbank.netlify.app/',
-            },
-            {
-                btn_text: 'Code',
-                btn_link: 'https://github.com/lokesh-bhortake/lbank',
-            },
-        ]
-    },
-    {
         image: portfolio_img,
         title: 'Portfolio Site',
         description: 'A website which showcases my coding journey and projects which is designed and is responsive for all the devices.',
@@ -146,6 +130,22 @@ export const projects = [
             {
                 btn_text: 'Code',
                 btn_link: 'https://github.com/lokesh-bhortake/portfolio',
+            },
+        ]
+    },
+    {
+        image: lbank_img,
+        title: 'Bank Landing Page',
+        description: 'A fully responsive bank landing page aimed to showcase the bank services and offerings with modern UI.',
+        tech: 'React, Tailwind CSS',
+        btn: [
+            {
+                btn_text: 'Live',
+                btn_link: 'https://lbank.netlify.app/',
+            },
+            {
+                btn_text: 'Code',
+                btn_link: 'https://github.com/lokesh-bhortake/lbank',
             },
         ]
     }
